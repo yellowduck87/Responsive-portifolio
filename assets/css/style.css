@@ -1,0 +1,230 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("symphony.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 29px;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 29px;
+	color: #4aaaa5;	
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px; 
+	color:#ffffff;
+}
+
+h5 {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 20px 0px 10px 0px;
+	font-size: 20px;
+	
+
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	padding: 20px 0px 0px 0px;
+	line-height: normal;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 20px;
+	padding: 5px;
+	position: relative;
+	color: #cccccc;
+	float: right;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #cccccc;
+}
+
+nav ul li a:visited {
+	color: #dddddd;
+}
+
+.headPlate {
+	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0 auto 0 auto;
+	padding-bottom: 15px;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 2px solid #888;
+	z-index: 2;
+}
+
+#namePlate {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	width: 240px;
+	padding: 24.5px;
+	float: left;
+	position: absolute;
+	/* left: 275px; */
+	text-align: center;
+	z-index: 4;
+}
+
+.wrapper {
+	max-width: 960px;
+	padding: 20px;
+	margin: 0 auto 0 auto;
+}
+
+#about {
+	max-width: 960px;
+	clear: both;
+	padding: 30px 30px 30px 30px;
+	margin: auto;
+	left: 0px;
+	margin-top: 110px;
+	background-color: #ffffff;
+	position: relative;
+	border: 1px solid #dddddd;
+	z-index: 1;
+}
+
+
+
+#line {
+	width: 55%x;
+	height: 2px;
+	background-color: #cccccc;
+}
+
+#profilePic {
+	float: left;
+	position: relative;
+	top: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	width: 120px;
+	height: 120px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 40px;
+	padding-top: 20px;
+	border-top: 5px solid #4aaaa5;
+	background-color: #777777;
+	color: #ffffff;
+	text-align: center;
+	font-size: 12px;
+	z-index: 2; 
+}
+
+#portPic {
+	position: relative; 
+	float: left;
+	margin: auto;
+	width: 250px;
+	min-width: 200px;
+}
+
+ #banner { 
+	position: relative;
+	background-color: #4aaaa5;
+	width: 200px;
+	height: 50px;
+	top: -60px;
+	left: 0px;
+	z-index: 4;
+	text-align: center; 
+	padding-top: 15px;
+}
+
+#banner:hover {
+	background-color: #b67db0;
+	color: black;
+}
+
+#imageBox {
+	overflow: auto;
+	margin-top: 20px;
+}
+
+#res {
+	max-width: 960px;
+	margin: auto;
+}
+
+input {
+	float: left;
+	clear: left;
+	margin: auto;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+ #submitButton {
+	 width: 100px;
+	 background-color: #4aaaa5;
+	 color: #ffffff;
+	 text-align: center;
+	 padding: 10px;
+	 margin-top: 20px;
+	 
+ }
+
+ #submitButton:hover {
+	 background-color: #b67db0;
+	 color: black;
+ }
+
+ a {
+	 color: #4aaaa5;
+ }
+
+ a:visited {
+	 color: #b67db0;
+ }
+
+ @media screen and (max-width: 768px) {
+	.wrapper {
+		max-width: 750px;
+		margin: auto;
+	}
+	 #profilePic {
+		 width: 40%;
+	 }
+}
+
+@media screen and (max-width: 640px) {
+	.wrapper {
+		max-width: 620px;
+		margin: auto;
+	}
+
+	nav {
+		clear: left;
+	}
+}
