@@ -107,6 +107,13 @@ nav a:first-child {
 	margin-right: 25px;
 }
 
+h2, h3 {
+	border-bottom: 2px solid #eee;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	line-height: 22px;
+}
+
 footer {
 	background: #666;
 	color: #fff;
@@ -188,3 +195,53 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }]
+
+@media screen and (max-width: 980px){
+	.container {
+		max-width: 920px;
+	}
+
+	.main-section {
+		max-width: 920px;
+	}
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 640px){
+	#logo {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	nav {
+		width: 100%;
+		float: left;
+		clear: both;
+		margin: 25px auto;
+		text-align: center;
+	}
+	 nav a:first-child {
+		 margin-left: 0;
+	 }
+
+	.main-section {
+		width: 100%;
+		margin: 70px 20px 20px 20px;
+	}
+
+	.profile-pic {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.portfolio-image {
+		width: 100%;
+	}
+
+	.work {
+		width: 100%;
+	}
+}
