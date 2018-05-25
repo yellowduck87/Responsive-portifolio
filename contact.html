@@ -1,47 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Contact Form</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Responsve Portfolio Megan Evans</title>
+	<link ref="stylesheet" type="text/css" href="assets/reset.css">
+	<link ref="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-	<div class="headPlate">
-	<div id="res">
-		<div id="namePlate">
-			<h1>Megan Evans</h1>
-		</div>    
-		
-		<nav>
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Megan Evans</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
+	<section class="main-container">
+		<h2>Contact</h2>
+		<form>
 			<ul>
-					<li><a href="contact.html">Contact</a></li>	
-					<li>   |   </li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li>   |   </li>
-					<li><a href="index.html">About</a></li>
-					
+				<li>
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" placeholder="Ebenezer Scrooge" required="required">
+				</li>
+				<li>
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+				</li>
+				<li>
+					<label for="message">Message</label>
+					<textarea id="message" name="message" required="required"></textarea>
+				</li>
 			</ul>
-		</nav>
-		</div>
-    </div>
-    <div class="wrapper">
-    	<div id="about">
-    		<h2>Contact</h2>
-    		<div id="line"></div>
-				<form>
-					<h5>Name</h5>
-					<input type="text" name="" id="name" placeholder="Jane Doe">
-					<h5>Email</h5>
-					<input type="text" name="" id="email" placeholder="email@example.com">
-					<h5>Message</h5>
-					<textarea id="message" rows="10"></textarea>
-					<h4 id="submitButton">Submit</h4>
-					<!-- <input type="submit" name="submit" id="submitButton"> -->
-				</form>
-		</div>
-    	</div>
-    </div>
-<div class="footer">copyright &#169</div>
+			<input type="submit" name="submit">
+		</form>
+
+	</section>
+	<footer>copyright</footer>
 </body>
+
 </html>
