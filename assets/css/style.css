@@ -194,7 +194,7 @@ input[type=submit] {
 	font-size: 18px;
 	padding: 10px 30px;
 	cursor: pointer;
-}]
+}
 
 @media screen and (max-width: 980px){
 	.container {
@@ -229,7 +229,7 @@ input[type=submit] {
 
 	.main-section {
 		width: 100%;
-		margin: 70px 20px 20px 20px;
+		margin: 70px auto 20px auto;
 	}
 
 	.profile-pic {
