@@ -234,7 +234,11 @@ input[type=submit] {
 @media screen and (max-width: 640px){
 	
 	#main-container {
-		width: 600px;
+		width: 580px;
+	}
+
+	.main-section {
+		margin-top: 70px;
 	}
 
 	#logo {
@@ -252,11 +256,6 @@ input[type=submit] {
 	 nav a:first-child {
 		 margin-left: 0;
 	 }
-
-	.main-section {
-		width: 100%;
-		margin: 70px auto 20px auto;
-	}
 
 	.profile-pic {
 		width: 100%;
