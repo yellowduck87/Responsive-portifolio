@@ -197,20 +197,46 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px){
-	.container {
-		max-width: 920px;
+	#main-container {
+		width: 660px;
+		margin: 0 0 70px 20px;
 	}
 
-	.main-section {
-		max-width: 920px;
+	#logo {
+		margin: 0 0 0 20px;
 	}
-}
+
+	nav {
+		margin: 25px 20px 0 0;
+	}
+	container {
+		width: 900px;
+	}
 
 @media screen and (max-width: 768px){
 
-}
+	.profile-pic {
+		width:50%; 
+	}
+	#logo {
+		width: 40%;
+	}
+
+	nav {
+		width: 40%;
+	}
+
+	   #main-container {
+		width: 708px;
+	}
+
 
 @media screen and (max-width: 640px){
+	
+	#main-container {
+		width: 600px;
+	}
+
 	#logo {
 		width: 100%;
 		margin: 0 auto;
